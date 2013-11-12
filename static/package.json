@@ -1,18 +1,18 @@
 {
     "author": {
-        "name": "zensh",
-        "email": "admin@zensh.com",
-        "url": "http://weibo.com/zensh"
+        "name": "zld",
+        "email": "zhu.lida.cn@gmail.com",
+        "url": "http://weibo.com/336330303"
     },
-    "name": "jsgen-cli",
+    "name": "gtd-club-cli",
     "version": "0.7.1",
-    "description": "jsgen-cli",
+    "description": "gtd-club-cli",
     "keywords": ["jsGen"],
-    "homepage": "https://github.com/zensh/jsgen",
+    "homepage": "https://github.com/zld/jsgen",
     "main": "app.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/zensh/jsgen.git"
+        "url": "https://github.com/zld/jsgen.git"
     },
     "engines": {
         "node": ">=0.10.x"

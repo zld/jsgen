@@ -1,18 +1,18 @@
 {
     "author": {
-        "name": "zensh",
-        "email": "admin@zensh.com",
-        "url": "http://weibo.com/zensh"
+        "name": "zld",
+        "email": "zhu.lida.cn@gmail.com",
+        "url": "http://weibo.com/336330303"
     },
-    "name": "jsgen",
+    "name": "GTD-Club",
     "version": "0.7.2",
     "description": "",
-    "keywords": ["Node.js", "AngularJS", "mongoDB", "jsGen"],
-    "homepage": "https://github.com/zensh/jsgen",
+    "keywords": ["GTD","Omnifocus","Evernote","Node.js", "AngularJS", "mongoDB", "jsGen"],
+    "homepage": "https://github.com/zld/jsgen",
     "main": "app.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/zensh/jsgen.git"
+        "url": "https://github.com/zld/jsgen.git"
     },
     "engines": {
         "node": ">=0.10.x"
