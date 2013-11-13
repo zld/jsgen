@@ -1,8 +1,9 @@
-<div class="pure-g-r wrap">
+<!--<div class="pure-g wrap">
+ 
     <div class="pure-u-1-2">
         <div class="panel pure-hidden-phone">
             <div class="page-header text-center">
-                <span class="hot">欢迎回到AngularJS中文社区</span>
+                <span class="hot">欢迎回到GTD中文社区</span>
             </div>
             <div class="inner text-center">
                 <img src="/static/img/angularjs.png" alt="angularjs">
@@ -15,11 +16,13 @@
             </div>
         </div>
     </div>
-    <div class="pure-u-1-2">
-        <div class="panel transparent">
+-->
+    <!-- <div class="pure-u"> -->
+        <div class="panel transparent" align="center">
             <div class="page-header inner">
                 <strong class="primary">用户登录</strong>
             </div>
+            <!--
             <form class="pure-form pure-form-aligned inner" novalidate>
                 <div class="pure-control-group">
                     <label>登录名：</label>
@@ -38,6 +41,17 @@
                     </div>
                 </div>
             </form>
+            -->
+            <form class="pure-form pure-form-aligned inner" novalidate>
+                <fieldset class="pure-group">
+                    <input type="text" name="登录名" ng-model="login.logname" gen-tooltip="validateTooltip"  class="pure-input-1-2" placeholder="Username" required>
+                    <input type="password" name="密码" ng-model="login.logpwd" ng-minlength="6" ng-maxlength="20" gen-tooltip="validateTooltip" class="pure-input-1-2" placeholder="Password" required>
+                </fieldset>
+                <!-- <button type="submit" class="pure-button pure-input-1-2 pure-button-primary">Sign in</button> -->
+                <button class="pure-button primary-bg" ng-click="submit()">登录</button>
+                <a class="pure-button warning-bg" ng-show="reset.title" ng-href="{{'/reset?type='+reset.type}}">{{reset.title}}</a>
+            </form>
         </div>
-    </div>
+    <!-- </div> 
 </div>
+-->
